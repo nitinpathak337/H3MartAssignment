@@ -1,0 +1,47 @@
+.content-bg {
+  min-height: 100vh;
+
+  padding-top: 4%;
+}
+
+.stats {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-image: linear-gradient(
+    to right,
+    rgb(63, 81, 181),
+    rgb(100, 181, 246)
+  );
+}
+
+.stat-heading {
+  color: white;
+  text-align: center;
+  margin-bottom: 0px;
+  font-size: 17px;
+}
+
+.stat-value {
+  color: white;
+  text-align: center;
+  font-size: 27px;
+  margin-top: 0px;
+}
+.stat {
+  width: 13%;
+}
+
+.footer {
+  flex-direction: column;
+  padding-bottom: 10px;
+}
+
+.social-icons-container {
+  display: flex;
+  justify-content: space-around;
+  width: 8%;
+}

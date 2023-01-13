@@ -1,0 +1,36 @@
+
+.navbar{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-around;
+}
+
+.nav-options{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-direction:row;
+    width:20%;
+}
+
+.right{
+    
+    width:15%;
+}
+
+.logo{
+    width:7%;
+    margin-top:2%;
+}
+
+.nav-button{
+    background-color: rgb(24, 198, 131);
+    border:none;
+    outline:none;
+    cursor:pointer;
+    height:30px;
+    width:120px;
+    color:white;
+    border-radius:16px;
+}
